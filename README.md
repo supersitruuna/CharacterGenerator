@@ -9,7 +9,7 @@ The page before generating anything.
 
 The page with a character generated.
 
-![The page on in a narrow window](src/narrowview.png)
+![The page on in a narrow window](src/narrowview.PNG)
 
 The page rescaled to a narrow window.
 
