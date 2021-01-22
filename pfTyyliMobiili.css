@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 700px){
+    body{
+        width: 100%;
+        background-image: unset;
+    } 
+ 
+    #container{
+     background-color: #7247661f;
+     border: none;
+    }
+    
+    #otsikko{
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: smaller;
+    }
+ 
+    .button{
+        background-color: #724766;
+        margin: 0.5vw;
+        padding: 1.5vh;
+    }
+    
+    #resultsBox{
+        width: 65%;
+        border-left: solid 2vh #724766;
+    }
+
+    .vector_die{
+        max-width: 16%;
+    }
+ }

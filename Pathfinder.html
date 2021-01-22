@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pahfinder character generator</title>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="pfTyyli.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="pfTyyliMobiili.css">
+
+
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="banneri">
+            <h1 id="otsikko">Pathfinder character generator</h1>
+        </div>
+
+        <p id="esittelyTxt">Sometimes making an RPG character can be hard. The Pathfinder TTRPG system provides numerous
+            options for classes and races and sometimes choosing them may be difficult. This generator allows you to
+            randomly choose a race, a class, an alignment and
+            even a motivation for your new character.
+        </p>
+
+
+        <div id="buttonField">
+            <div id="topRow">
+                <button id="perusRotuBtn" class="button">Choose a race using the Core Races of Pathfinder</button>
+                <button id="kaikkiRodutBtn" class="button">Choose a race using all of the races of Pathfinder</button>
+            </div>
+            <br>
+            <div id="middleRow">
+                <button id="luokkaBtn" class="button">Choose a Class</button>
+                <button id="suuntausBtn" class="button">Choose an alignment</button>
+                <button id="ominaisuusBtn" class="button">Choose a motivation</button>
+            </div>
+            <br>
+            <div id="bottomRow">
+                <button id="kaikkiBtn" class="button">Generate all at once</button>
+                <button id="uusiBtn" class="button">Reset all choices</button>
+            </div>
+        </div>
+
+        <div id="resultsBox">
+            <p id="rotuTxt">Your race is</p>
+            <p id="luokkaTxt">Your class is</p>
+            <p id="suuntausTxt">Your alignmnet is</p>
+            <p id="ominaisuusTxt">Who</p>
+        </div>
+
+        <p id="moreInfo">For more information about these races and classes please check out <a
+                href="https://www.d20pfsrd.com" title="d20pfsrd Pathfinder page">d20pfsrd</a></p>
+
+        <div id=dice_imgs>
+            <img class="vector_die" src="l_d4.png" alt="A 4-sided die">
+            <img class="vector_die" src="l_d6.png" alt="A 6-sided die">
+            <img class="vector_die" src="l_d8.png" alt="An 8-sided die">
+            <img class="vector_die" src="l_d10.png" alt="A 10-sided die">
+            <img class="vector_die" src="l_d12.png" alt="A 12-sided die">
+            <img class="vector_die" src="l_d20.png" alt="A 20-sided die">
+        </div>
+    </div>
+    <script src="pf-skripti.js"></script>
+
+</body>
+
+</html>
